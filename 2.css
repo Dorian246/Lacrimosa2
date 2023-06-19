@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #800000;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Metal Mania', cursive;
+
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #800000;
+    border-radius: 5px;
+  }
+  
+  nav ul.menu li a:hover {
+    background-color: #800000;
+    color: #ffffff;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #800000;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #000000;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para la sección de canciones */
+  #search-form {
+    margin-bottom: 10px;
+  }
+  
+  #search-input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  #search-results {
+    margin-bottom: 10px;
+  }
+  
+  #video-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #800000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
